@@ -1,0 +1,37 @@
+.heading{ border: 2px solid black;
+    color:white;
+    background-color: rgb(104, 103, 103);
+    display: flex;
+    align-items: center;
+}
+.winninggif img {
+    width: 0px; /* Keep the width 0 initially */
+    display: none; /* Hide the image by default */
+}
+
+.gamecontainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: (3, 10vw);
+    grid-gap: 3px;
+}
+
+.box{
+font-size: 10px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+font-size: 50px;
+background-color: antiquewhite;}
+
+.gameinformation{padding: 34px;}
